@@ -1,0 +1,83 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main {
+  position: relative;
+  vertical-align: middle;
+  justify-content: space-around;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+}
+form {
+  display: grid;
+  grid-row: auto auto;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Comfortaa", cursive;
+  margin: 0 2rem;
+}
+textarea {
+  border: 1px solid rgb(54, 44, 66);
+  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+textarea::placeholder {
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(57, 168, 141);
+}
+
+input,
+a {
+  margin: 20px 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-family: Shanti;
+  font-size: 1.9em;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(26, 24, 24);
+  color: aliceblue;
+}
+a {
+  top: 40px;
+  padding: 20px 40px;
+  text-decoration: none;
+}
